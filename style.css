@@ -165,6 +165,14 @@ a:hover {
   cursor: pointer;
   color: #212121;
 }
+/* .thumbnail{
+  
+  height:300px;
+} */
+.thumbnail>img{
+  width: 200px;
+  height:200px;
+}
 
 
 .well {
