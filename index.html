@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Single Page Portfolio | Webdev@Imam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Staatliches&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+ 
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <button class="navbar-toggler navbar-nav navbar-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="text-white fa fa-bars"></i>     
+  </button>
+  <div class="container-fluid">
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="nav navbar-nav navbar-left">
+         <li class="nav-item"><a href="#home" class="scroll"><span class="fa fa-home"></span> Home</a></li>
+         <li class="nav-item"><a href="#about" class="scroll"><span class="fa fa-user"></span> About </a></li> 
+         <li class="nav-item"><a href="#experience" class="scroll"><span class="fa fa-space-shuttle"></span> Experience</a></li>
+         <li class="nav-item"><a href="#portfolio" class="scroll"><span class="fa fa-picture-o"></span> Portfolio</a></li>
+         <li class="nav-item"><a href="#contact" class="scroll"><span class="fa fa-envelope"></span> Contact</a></li>
+       </ul>
+     </div>
+  </div>
+</nav>
+  
+<!-- Main-section  -->
+  <section class="banner text-center" id="home">
+    <div id="overlay">
+      <div class="title">
+        <h1> WebDev<span>@</span>Imam</h1>
+        <h3 id="qualif">Web Developer and Problem Solver </h3>
+      </div>
+      
+    </div>
+  </section>
+  
+<!-- About-section --> 
+<div class="small-intro">
+  <p id="small-intro"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis, eros non pulvinar pellentesque, turpis nulla consequat elit,
+     id auctor nulla metus eu ex. Phasellus imperdiet ornare tristique. Ut ut lacus gravida, feugiat mi a,tincidunt ipsum. Nam sit amet odio consequat, 
+     finibus ligula vitae, mattis sem. Suspendisse vitae turpis sit amet lorem rutrum malesuada fringilla at magna. Pellentesque congue felis nec aliquet sagittis. Etiam eget porta ipsum. Proin non pretium ipsum, vel tristique justo.</p>
+    <div>Add Resume</div>
+</div>
+
+<!-- Skilss --> 
+  <section class="skills" id="about">
+    <div class="text-center titles border">
+      <h1 id="title">TECHNICAL SKILLS</h1>  
+    </div> 
+     
+    <div class="row text-center" id="skills">
+        <span class="skill">  Java        </span>
+        <span class="skill">  Python      </span>
+        <span class="skill">  DS/Algo     </span>  
+        <span class="skill">  HTML        </span>
+        <span class="skill">  CSS         </span> 
+        <span class="skill">  JavaScript  </span>
+        <span class="skill">  React       </span>    
+        <span class="skill">  Git         </span>
+    </div>  
+    
+  </section>
+
+<!-- Experience --> 
+  <section class="ex-timeline" id="experience"> 
+    <h1 class="text-center border titles" id="title"> EXPERIENCE </h1> 
+    <div class="job-timeline">
+      <ul class="timeline">
+        <li class="timeline-event">
+          <label class="timeline-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-thumbnail"> July 2019 - Present </p>
+            <h5 id="workplace"><a href="https://www.tcs.com/" target="_blank">Tata Consultancy Services</a></h5>
+            <h6 id="jobPos"> - System Engineer  </h6>
+            <p id="jobDesc">
+              <ul>
+                <li class="experience-details"> Monitored alerts and dips for banking services and products on tools like Grafana, Moogsoft AIops, Splunk etc.</li>
+                <li class="experience-details"> Assisted application teams with OS and CPU usage details for abnormalities in performance graphs and data using tools like Icinga , Putty, Perceiver.</li>
+                <li class="experience-details"> Mentored new team mates and imparted knowledge as and when required.</li>
+              </ul>
+            </p>
+          </div>
+        </li>
+      </ul>
+      <ul class="timeline">
+        <li class="timeline-event">
+          <label class="timeline-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-thumbnail"> July 2021 - Present</p>
+            <h5 id="workplace"><a href="https://www.newtonschool.co/" target="_blank">Newton School</a></h5>
+            <h6 id="jobPos"> - Web Developer Intern  </h6>
+            <p id="jobDesc"> 
+              <ul >
+                  <li class="experience-details">Full Stack Web Development along with Problem Solving.</li>
+                  <li class="experience-details">Technical Stack learnt: Node JS, React JS, Express JS, Mongo DB, HTML, CS, JavaScript and Bootstrap.</li>
+                  <li class="experience-details">Participated in various Coding contest organized by the platform</li>
+              </ul>
+            </p>
+          </div>
+        </li>
+      </ul>
+     
+    </div>  
+  </section>
+  
+<!-- Projects-->   
+  <section class="portfolios" id="portfolio">
+    <h1 class="text-center border titles" id="title"> PORTFOLIO  </h1>
+
+    <div class="container">
+          <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+            <div class="well">
+              <a class="thumbnail">
+                 <img alt=" project1" src="https://th.bing.com/th/id/OIP.58E5ANmNqLUkpJfohS4k6AHaHa?c=7&r=0&o=5&dpr=1.25&pid=1.7" class="project-img">
+              </a>
+              <h2 id="projectTitle"> Netflix-Clone </h2>
+            <div class="demo-source">
+              <a href="https://netflix-clone-d901f.web.app/" target="_blank" alt="Live Demo"><h2 id="liveDemo"> Live Demo </h2></a>
+              <a href="https://github.com/imamk8114/netflix-clone" target="_blank" alt="Source Code"><h2 id="sourceCode"> Source Code </h2></a>
+            </div>
+            </div>
+          </div>
+
+      
+          <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+            <div class="well">
+              <a class="thumbnail">
+                 <img src="" class="project-img">
+              </a>
+              <h2 id="projectTitle"> Loop Slideshow </h2>
+              <div class="demo-source">
+                <a href="https://webdevtrick.com/demos/css-gradient-background/" target="_blank" alt="Live Demo"><h2 id="liveDemo"> Live Demo </h2></a>
+                <a href="https://webdevtrick.com/css-gradient-background/" target="_blank" alt="Source Code"><h2 id="sourceCode"> Source Code </h2></a>
+              </div>
+            </div>
+          </div>
+  
+          <!-- <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+            <div class="well">
+              <a class="thumbnail">
+                 <img src="" class="project-img">
+              </a>
+              <h2 id="projectTitle"> Loop Slideshow </h2>
+              <div class="demo-source">
+                <a href="" target="_blank" alt="Live Demo"><h2 id="liveDemo"> Live Demo </h2></a>
+                <a href="" target="_blank" alt="Source Code"><h2 id="sourceCode"> Source Code </h2></a>
+              </div>
+            </div>
+          </div> -->
+
+    </div>
+  </section>
+
+<!-- contact -->  
+  <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div>
+                        <h3 class="heading">Contact me<span>.</span></h3>
+                        <hr>
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Your Name" type="text">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Your Email" type="email">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Subject" type="text">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Type Your Message ..."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-light animate_animated" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div>
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="fa fa-envelope-o"></i> imamk8114@gmail.com
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i> 6291015427
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="map-wrapper">
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe width="500" height="327" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=bangalore&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                                </iframe>
+                                <a href="https://123movies-to.org"></a><br>
+                                <style>.mapouter{position:relative;text-align:right;height:300px;width:500px;}
+                                </style>
+                                <style>.gmap_canvas {overflow:hidden;background:none!important;height:327px;width:525px; display: flex;} 
+                                </style>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </section> 
+  
+<!-- Footer -->
+  <footer>
+    <div class="contact-buttons">
+      <a class="btn btn-linkedin btn-lg" href="https://www.linkedin.com/in/imam-khan-289a2a120/" target="_blank" ><i class="fa fa-linkedin"></i></a>
+      <a class="btn btn-github btn-lg" href="https://github.com/imamk8114" target="_blank"><i class="fa fa-github"></i></a>
+      <a class="btn btn-instagram btn-lg" href="https://www.instagram.com/inadequate_melanin/" target="_blank"><i class="fa fa-instagram"></i></a>
+    </div>
+    <br>
+    <p id="footer">Copyright © WebDev@Imam 2021</p>
+  </footer>
+
+<!-- particlejs -->
+<div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+            particlesJS.load('particles-js', 'particles.json',
+            function(){
+                console.log('particles.json loaded...')
+            })
+    </script>
+
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="particles.js"></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script  src="function.js"></script>
+
+</body>
+</html>
